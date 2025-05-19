@@ -8,5 +8,5 @@ Badges to edit for if the project happens to be a library:
 ```markdown
 [![CI](https://github.com/UnrelatedString/purescript- [PROJECT NAME] /actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/UnrelatedString/purescript- [PROJECT NAME] /actions/workflows/ci.yml)
 ![Latest Version Tag](https://img.shields.io/github/v/tag/UnrelatedString/purescript- [PROJECT NAME] )
-[![Pursuit](https://pursuit.purescript.org/packages/purescript- [PROJECT NAME]/badge?)](https://pursuit.purescript.org/packages/purescript- [PROJECT NAME] )
+[![Pursuit](https://pursuit.purescript.org/packages/purescript- [PROJECT NAME] /badge?)](https://pursuit.purescript.org/packages/purescript- [PROJECT NAME] )
 ```
