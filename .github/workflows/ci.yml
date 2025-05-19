@@ -26,6 +26,9 @@ jobs:
           npm i -g purescript
           npm i -g spago@next
 
+      - name: Install Spago dependencies
+        run: spago install --pure --pedantic-packages
+
       - name: Build
         run: spago build --strict
 
