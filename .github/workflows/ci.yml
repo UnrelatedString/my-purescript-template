@@ -8,6 +8,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Cache Spago dependencies
+        uses: actions/cache@v4
+        with:
+          path: .spago
+          key: spago-${{ hashFiles('spago.lock') }}
+          restore-keys: |
+            spago-
+
       - name: Set up Node 20
         uses: actions/setup-node@v4
         with:
